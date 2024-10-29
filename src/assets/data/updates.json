@@ -1,0 +1,15 @@
+[
+    {
+      "date": "11/05/2024",
+      "totalCases": 152907,
+      "casesToday": 509,
+      "totalDeaths": 22076,
+      "deathsToday": 81,
+      "activeCases": 4676,
+      "totalRecovered": 97356,
+      "testsToday": 80965,
+      "totalTested": 1467965,
+      "positivePercentage": "3.6%",
+      "peopleTested": 4937
+    }
+]

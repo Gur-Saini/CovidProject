@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <app-status></app-status>
+  <div *ngIf="selectedItem">
+    <table>
+      <tr>
+        <th>Title</th>
+        <th>Value</th>
+      </tr>
+      <tr>
+        <td>Report Date</td>
+        <td>{{ selectedItem.report_date }}</td>
+      </tr>
+      <tr>
+        <td>Previous Day Total Doses Administered</td>
+        <td>{{ selectedItem.previous_day_total_doses_administered }}</td>
+      </tr>
+      <tr>
+        <td>Previous Day At Least One Dose</td>
+        <td>{{ selectedItem.previous_day_at_least_one }}</td>
+      </tr>
+      <tr>
+        <td>Previous Day Fully Vaccinated</td>
+        <td>{{ selectedItem.previous_day_fully_vaccinated }}</td>
+      </tr>
+      <tr>
+        <td>Total Individuals with At Least One Dose</td>
+        <td>{{ selectedItem.total_individuals_at_least_one }}</td>
+      </tr>
+      <tr>
+        <td>Total Individuals Partially Vaccinated</td>
+        <td>{{ selectedItem.total_individuals_partially_vaccinated }}</td>
+      </tr>
+    </table>
+  </div>
+  
+  <div class="back-button-container">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/tab2" text="Back" icon="chevron-back-outline"></ion-back-button>
+    </ion-buttons>
+  </div>
+  <hr>
+  <ion-item>
+    <ion-label position="floating">Message</ion-label>
+    <ion-input [(ngModel)]="message"></ion-input>
+  </ion-item>
+  <div class="send-message-button-container">
+    <ion-button (click)="sendMessage()">Send Message to Tab 2</ion-button>
+  </div>
+</ion-content>

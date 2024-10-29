@@ -1,0 +1,56 @@
+
+
+<ion-content>
+
+    <ion-card *ngFor="let gurleen of update" class="key-updates-card">
+      <ion-card-header>
+        <ion-card-title>Key Updates as of {{gurleen.date}}</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content >
+        <div class="key-updates-content">
+          <div class="key-update-item">
+            <strong>Cases today</strong>
+            <p>{{gurleen.casesToday | number}}</p>
+          </div>
+          <div class="key-update-item">
+            <strong>Total cases</strong>
+            <p>{{gurleen.totalCases | number}}</p>
+          </div>
+          <div class="key-update-item">
+            <strong>Active cases</strong>
+            <p>{{gurleen.activeCases | number}}</p>
+          </div>
+          <div class="key-update-item">
+            <strong>Total recovered</strong>
+            <p>{{gurleen.totalRecovered | number}}</p>
+          </div>
+          <div class="key-update-item">
+            <strong>Deaths today</strong>
+            <p>{{gurleen.deathsToday | number}}</p>
+          </div>
+          <div class="key-update-item">
+            <strong>Total deaths</strong>
+            <p>{{gurleen.totalDeaths | number}}</p>
+          </div>
+          <div class="key-update-item">
+            <strong>Tested today</strong>
+            <p>{{gurleen.testsToday | number}}</p>
+          </div>
+          <div class="key-update-item">
+            <strong>Total tested</strong>
+            <p>{{gurleen.totalTested | number}}</p>
+          </div>
+          <div class="key-update-item">
+            <strong>Percent positive</strong>
+            <p>{{gurleen.positivePercentage}}</p>
+          </div>
+          <div class="key-update-item">
+            <strong>People tested</strong>
+            <p>{{gurleen.peopleTested | number}}</p>
+          </div>
+        </div>
+      </ion-card-content>
+    </ion-card>
+ 
+</ion-content>

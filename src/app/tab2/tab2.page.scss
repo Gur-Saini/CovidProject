@@ -1,0 +1,61 @@
+ion-content {
+    --background: #f9f9fb;
+    padding: 0;  /* Remove padding from the content */
+  }
+  
+  .status-card, .message-card {
+    margin: 16px 0;  /* Adjust margin to only top and bottom */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;  /* Make the card span full width */
+    background-color: #ffffff;
+  }
+  
+  ion-card-header {
+    background-color: #ccd0eb;
+    border-bottom: 1px solid #ddd;
+    border-radius: 8px 8px 0 0;
+    padding: 10px 16px;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  ion-card-title {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  ion-card-content {
+    background-color: #ffffff;
+    padding: 16px;
+  }
+  
+  ion-list {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ion-item {
+    margin: 8px 0;
+    padding: 10px;
+    background: #e3dbf8;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .back-button-container {
+    padding: 16px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+  
+  ion-button {
+    --background: #3880ff;
+    --color: #ffffff;
+  }
+  
+  

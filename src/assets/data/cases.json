@@ -1,0 +1,59 @@
+[
+    {
+      "report_date": "2021-01-05",
+      "previous_day_total_doses_administered": 9693,
+      "previous_day_at_least_one": 9668,
+      "previous_day_fully_vaccinated": 21,
+      "total_individuals_at_least_one": 57808,
+      "total_individuals_partially_vaccinated": 57774
+    },
+    {
+      "report_date": "2021-01-06",
+      "previous_day_total_doses_administered": 12802,
+      "previous_day_at_least_one": 12336,
+      "previous_day_fully_vaccinated": 451,
+      "total_individuals_at_least_one": 70141,
+      "total_individuals_partially_vaccinated": 69659
+    },
+    {
+      "report_date": "2021-01-07",
+      "previous_day_total_doses_administered": 16231,
+      "previous_day_at_least_one": 15517,
+      "previous_day_fully_vaccinated": 700,
+      "total_individuals_at_least_one": 85657,
+      "total_individuals_partially_vaccinated": 84475
+    },
+    {
+      "report_date": "2021-01-08",
+      "previous_day_total_doses_administered": 18048,
+      "previous_day_at_least_one": 17031,
+      "previous_day_fully_vaccinated": 1004,
+      "total_individuals_at_least_one": 102688,
+      "total_individuals_partially_vaccinated": 100502
+    },
+    {
+      "report_date": "2021-01-09",
+      "previous_day_total_doses_administered": 19520,
+      "previous_day_at_least_one": 18440,
+      "previous_day_fully_vaccinated": 1067,
+      "total_individuals_at_least_one": 121126,
+      "total_individuals_partially_vaccinated": 117874
+    },
+    {
+      "report_date": "2021-01-10",
+      "previous_day_total_doses_administered": 11380,
+      "previous_day_at_least_one": 11338,
+      "previous_day_fully_vaccinated": 40,
+      "total_individuals_at_least_one": 132455,
+      "total_individuals_partially_vaccinated": 129164
+    },
+    {
+      "report_date": "2021-01-11",
+      "previous_day_total_doses_administered": 11718,
+      "previous_day_at_least_one": 11666,
+      "previous_day_fully_vaccinated": 49,
+      "total_individuals_at_least_one": 144120,
+      "total_individuals_partially_vaccinated": 140780
+    }
+  ]
+  
